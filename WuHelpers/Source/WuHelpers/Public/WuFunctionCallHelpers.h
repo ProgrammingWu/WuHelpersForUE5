@@ -118,7 +118,7 @@ private:
 	#endif
 #endif
 
-#if 1
+#if 0
 //使用示例(Example usage)
 //#include "WuFunctionCallHelpers.h"
 class WuFunctionCallIntervalHelpersTEST //假设这是一个UE的UObject类。如Actor（Assuming this is a UE UObject class, e.g., an Actor）
