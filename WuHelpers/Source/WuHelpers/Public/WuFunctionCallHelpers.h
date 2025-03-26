@@ -44,7 +44,7 @@ public:
 		}
 		if (!CheckSafeInterval())
 		{
-			auto&& ErrorMessage = FString::Printf(TEXT("WuFunctionCallIntervalHelpers::FunctionCall错误：%s 超出调用间隔限制，请检查代码是否对齐进行了不正常调用"), *FunctionName);
+			auto&& ErrorMessage = FString::Printf(TEXT("WuFunctionCallIntervalHelpers::FunctionCall Error: %s exceeds the call interval limit. Please check if the code is making improper calls to this function."), *FunctionName);
 			FMessageLog("PIE").Error(FText::FromString( ErrorMessage));
 			UE_LOG(LogTemp,Error, TEXT("%s"), *ErrorMessage);
 		}
