@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "WuHelpers",
+	"Description": "A UE plugin developed by bilibili UP: 虚幻4-无, which integrates a collection of helper utilities||由B站UP：虚幻4-无 制作的一个集合了一些帮助功能的UE插件",
+	"Category": "Wu",
+	"CreatedBy": "B站：虚幻4-无",
+	"CreatedByURL": "https://space.bilibili.com/381317561",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "WuHelpers",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
